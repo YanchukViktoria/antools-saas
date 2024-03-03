@@ -1,0 +1,28 @@
+.log-reg-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    padding-top: 26px;
+    margin-left: auto;
+
+    &-item{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5;
+
+    }
+
+    &-button-login{
+        background-color: $page-color;
+        font-family: Poppins;
+        @include font-style(Poppins, 16px, 600, 1.5, 0em, left, $home-p--main-p--apps-info--footer-a-p-color);
+    }
+
+    &-button-sing{
+        border-radius: 8px;
+        background-color: $buttons-bg--dot--load-button-color;
+        @include font-style(Poppins, 16px, 600, 1.5, 0em, left, $reg-button-text-color);
+        padding: 12px 28px;
+    }
+}

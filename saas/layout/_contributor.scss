@@ -1,0 +1,15 @@
+.section-contributor{
+    padding-bottom: 240px;
+    padding-top: 250px;
+
+    &-title{
+        @include font-style(Poppins, 48px, 500, 1.2, _, center, $logo--home-title--all-title--selection-apps-title-color-color);
+        margin-bottom: 25px;
+    }
+    
+    &-desc{
+        @include font-style(Poppins, 18px, 500, 1.6, _, center, $home-p--main-p--apps-info--footer-a-p-color);
+        max-width: 427px;
+        margin: 0 auto 100px;
+    }
+}

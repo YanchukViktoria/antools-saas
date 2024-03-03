@@ -1,0 +1,95 @@
+.section-newcomer-tools{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.newcomer-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.newcomer-tools-apps-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 46px;
+    max-width: 638px;
+}
+
+.newcomer-tools-wrap{
+    display: flex;
+}
+
+.newcomer-tools-list-item{
+    padding: 28px 21px;
+
+    width: 292px;
+    height: 288px;
+}
+
+.newcomer-tools-list-item:hover{
+    background-image: url("/img/buttonimg/bg\ newcomer.png"); 
+    background-repeat: no-repeat;
+    transform: translateY(-20px);
+    width: 292px;
+    height: 288px;
+    transition: transform 1s;
+}
+
+.newcomer-svg-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.newcomer-svg-list{
+    display: flex;
+    gap: 12px;
+}
+
+.newcomer-tools-title{
+    @include font-style(Poppins, 48px, 500, 1.2, _, _, $logo--home-title--all-title--selection-apps-title-color-color);
+    margin-bottom: 30px;
+}
+
+.newcomer-tools-desc{
+    @include font-style(Poppins, 18px, 500, 1.6, _, _, $home-p--main-p--apps-info--footer-a-p-color);
+    max-width: 427px;
+    margin-bottom: 60px;
+}
+
+.newcomer-tools-button{
+    @include font-style(Poppins, 18px, 500, 1.5, _, _, $selection-tools-buttons-text-color);
+    border-radius: 8px;
+    padding: 16px 40px;
+    background-color: $buttons-bg--dot--load-button-color;
+}
+
+.newcomer-tools-apps-list-img{
+    margin-right: 30px;
+}
+
+.newcomer-tools-apps-list-desc-info{
+    @include font-style(Poppins, 14px, 400, 2.1, _, _, $home-p--main-p--apps-info--footer-a-p-color);
+    max-width: 245px;
+    margin: 30px 0px 30px 0px;
+}
+
+ .newcomer-tools-apps-list-title{
+    @include font-style(Poppins, 24px, 500, 1.5, _, _, $nav--apps-name-color);
+    margin-bottom: 3px;
+}
+
+.newcomer-tools-apps-list-desc{
+    @include font-style(Poppins, 18px, 400, 1.5, _, _, $apps-value-color);
+} 
+
+.newcomer-tools-apps-list-button{
+    @include font-style(Poppins, 16px, 600, 1.5, _, _, $button-text--input-tex-color);
+    padding: 9px 25px;
+    border-radius: 8px;
+    background-color: inherit;
+}
+
+.newcomer-tools-apps-list-button:hover{
+    color: $selection-tools-buttons-text-color;
+    background-color: $buttons-bg--dot--load-button-color;
+}

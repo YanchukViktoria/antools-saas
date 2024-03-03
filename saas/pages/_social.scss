@@ -1,0 +1,11 @@
+.social-list{
+    display: flex;
+    gap: 8px;
+    margin-top: 110px;
+
+    &-div-button{
+        border-radius: 8px;
+        padding: 11px;
+        background-color: &page-color;
+    }
+}

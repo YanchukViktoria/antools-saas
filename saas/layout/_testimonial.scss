@@ -1,0 +1,68 @@
+.testimonial-content-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-ronaldo-bg{
+    background-image: url("../img copy/testimonial/ronaldo-human-bg.png");
+    width: 399px;
+    height: 492px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.section-testimonial-div{
+    background-image: url("");
+    background-repeat: no-repeat;
+
+} .testimonial-list-div-div{
+    background-image: url("../img copy/testimonial/ranaldo-richards-testimonial-bg.png");
+    background-repeat: no-repeat;
+    padding: 10px 23px 16px 23px;
+}
+
+.testimonial-list-div-title{
+    @include font-style(Poppins, 26px, 500, 1.5, 0.015em, left, $nav--apps-name-color);
+    margin-bottom: 2px;
+}
+
+.testimonial-list-div-desc{
+    @include font-style(Poppins, 16px, 400, 1.5, 0.015em, left, $home-p--main-p--apps-info--footer-a-p-color);
+    margin-bottom: 16px;
+} 
+.testimonial-info{
+    background-image: url("../img copy/testimonial/lapku.png");
+    background-repeat: no-repeat;
+    background-position: 7% 3%;
+}
+
+.testimonial-list-info-div-desc{
+    @include font-style(Poppins, 14px, 400, 2.1, 0.015em, left, $nav--apps-name-color);
+    max-width: 393px;
+    padding: 55px 0px 46px 75px;
+    min-width: 469px;
+    
+}
+
+.testimonial-button-left{
+    padding: 38px 34px;
+    background-image: url("../img copy/testimonial/chevron-left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $page-color;
+    margin-right: 108px;
+
+    &:hover{
+        background-image: url("./img copy/testimonial/orage\ strilka.png");
+    }
+}
+
+.testimonial-button-right{
+    padding: 38px 34px;
+    background-image: url("../img copy/testimonial/дуае-кшпре.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $page-color;
+    margin-left: 108px;
+}

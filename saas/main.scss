@@ -1,0 +1,30 @@
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+@import "./abstracts/placeholders";
+
+@import "./base/reset";
+@import "./base/typography";
+
+@import "./components/.ico";
+@import "./components/container";
+@import "./components/decor";
+@import "./components/logo";
+@import "./components/form";
+
+@import "./pages/contacts";
+@import "./pages/home";
+@import "./pages/social";
+
+@import "./layout/brands";
+@import "./layout/contributor";
+@import "./layout/footer";
+@import "./layout/forms";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/navigation";
+@import "./layout/newcomer";
+@import "./layout/popular";
+@import "./layout/signUp";
+@import "./layout/slidebar";
+@import "./layout/testimonial";
+@import "./layout/footer";

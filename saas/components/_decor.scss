@@ -1,0 +1,20 @@
+.decor-list{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 100px;
+
+    &-span{
+        display: inline-block;
+        background-image: url("../img copy/testimonial/Rectangle-337.png");
+        width: 44px;
+        height: 6px;
+    }
+    
+    &-span:hover{
+        display: inline-block;
+        background-image: url("../img copy/testimonial/orange\ Rectangle\ 335.png");
+        width: 44px;
+        height: 8px;
+    }
+}

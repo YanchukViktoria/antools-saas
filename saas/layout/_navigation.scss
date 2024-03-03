@@ -1,0 +1,27 @@
+.nav-list{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding-top: 26px;
+
+        &-link{
+            @include font-style(Poppins, 16px, 500, 1.5, _, _, $home-p--main-p--apps-info--footer-a-p-color);
+
+        &-categories::after{
+            content: image-set("/antools/img/nav/categories_hove-img.png" 1x );
+            margin-left: 5px;
+        } 
+    }
+
+     &-img{
+        display: inline-block;
+        vertical-align: middle;
+        transition: transform 0.2s ease-in-out;
+    
+        margin-left: 5px;
+    }
+}
+
+.categories:hover .nav-list-img {
+    transform: rotate(180deg);
+}

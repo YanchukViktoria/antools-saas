@@ -1,0 +1,22 @@
+.section-trusted-brands{
+    content: "";
+    background-image: url("./img/brands_background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 58px;
+    padding-bottom: 56px;
+}
+
+.trusted-brands-title{
+    @include font-style(Poppins, 24px, 500, 1.5, _, center, $trusted-brands-title-color);
+    margin-bottom: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.trusted-brands-list{
+    display: flex;
+    justify-content: center;
+    gap: 107px;
+} 
+

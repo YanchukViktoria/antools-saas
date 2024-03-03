@@ -1,0 +1,29 @@
+// contributor form
+
+.section-contributor-form{
+    border: solid 1.5px;
+    border-radius: 15px;
+    max-width: 549px;
+    padding: 8px 0px 8px 0px;
+    margin: 0 auto;
+
+    border-color: $button-bg-color;
+    background-color: $button-bg-color;
+}
+
+.contributor-form-input{
+    @include font-style(Poppins, 14px, 400, 1.5, _, _, _);
+    padding: 0;
+    border: 0px;
+    margin-left: 24px;
+    max-width: 122px;
+    background-color: $button-bg-color;
+}
+
+.contributor-form-button{
+    @include font-style(Poppins, 16px, 600, 1.5, _, _, $selection-tools-buttons-text-color);
+    border-radius: 8px;
+    margin-left: 260px;
+    padding: 12px 36px;
+    background-color: $buttons-bg--dot--load-button-color;
+}

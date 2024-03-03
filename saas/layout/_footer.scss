@@ -1,0 +1,56 @@
+.footer{
+    border-top: 1px solid $border-top-footer;
+    padding-top: 70px;
+    padding-bottom: 98px;
+}
+
+.footer-info-wrap{
+    display: flex;
+    gap: 115px;
+    margin-left: auto;
+}
+
+.footer-wraper{
+    display: flex;
+}
+
+.logo-footer-wrap{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.footer-logo-link{
+    @include font-style(Poppins, 22px, 600, 1.5, _, _, $logo--home-title--all-title--selection-apps-title-color-color);
+}
+
+.footer-div-desc{
+    @include font-style(Poppins, 16px, 500, 1.5, _, _, $logo--home-title--all-title--selection-apps-title-color-color);
+    margin-bottom: 21px;
+}
+
+.footer-div-desc-info{
+    @include font-style(Poppins, 14px, 400, 1.7, _, _, $home-p--main-p--apps-info--footer-a-p-color);
+    max-width: 260px;
+}
+
+.footer-info-title, .footer-about-us-title, .footer-categories-title{
+    @include font-style(Poppins, 28px, 500, 1.5, _, _, $logo--home-title--all-title--selection-apps-title-color-color);
+    margin-bottom: 20px;
+}
+
+.footer-info-addres-link{
+    @extend %footer-list;
+}
+
+.footer-categories-desc{
+    @extend %footer-list;
+}
+
+.about-us-list-link{
+    @extend %footer-list;
+}
+
+.about-us-list-item, .footer-categories-desc, .footer-info-addres-list-item{
+    margin-bottom: 10px;
+}
